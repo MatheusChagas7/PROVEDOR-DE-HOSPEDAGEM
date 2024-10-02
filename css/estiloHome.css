@@ -16,8 +16,8 @@
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
-    /* position: fixed;
-    z-index: 1; */
+    position: fixed;
+    z-index: 1;
 }
 
 .container-logo{
@@ -64,7 +64,7 @@
 
 .secao-banner{
     background-color: #2f86d6;
-    padding: 50px 0px;
+    padding: 150px 0px 50px 0px;
 }
 
 .container-banner{
@@ -120,10 +120,6 @@
     background-color: #2f86d6;
 }
 
-/* .tabela-precos-texto{
-    display: flex;
-    flex-direction: column;
-} */
 
 .tabela-de-precos-1 a, .tabela-de-precos-2 a{
     width: 200px;
@@ -198,7 +194,7 @@ a img{
 
 /* INÍCIO SEÇÃO TABELA */
 .secao-tabela{
-    padding: 50px 15px;
+    padding: 150px 15px 50px 15px;
     background-color: #f6f6f6;
     text-align: center;
 }
